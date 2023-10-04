@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm App</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>00:00:00</h1>
+        <div class="timer-container">
+            <div class="drop-down">
+                <select>
+                    <option value="hour" selected hidden disabled>Hour</option>
+                </select>                
+            </div>
+            <div class="drop-down">
+                <select>
+                    <option value="minute" selected disabled hidden>Minute</option>
+                </select>
+            </div>
+            <div class="drop-down">
+                <select>
+                    <option value="AM/PM" selected disabled hidden>AM/PM</option>
+                </select>
+            </div>
+        </div>
+        <button class="set-button">Set Alarm</button>
+        <br>
+        <br>
+        <h3 id="alarm-heading"></h3>
+        
+        <div class="alarm-items">
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
